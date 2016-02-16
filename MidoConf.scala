@@ -1,6 +1,7 @@
 /* https://github.com/midonet/midonet/commit/afdd9cb296629095bc542ff4cdddcd21c6f5ef0a
  *
  * MidoConf: cluster based config management classes
+ *
  * Introduce a new set of classes that will move agent configuration
  * to the cluster:
  *
