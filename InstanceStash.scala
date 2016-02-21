@@ -29,7 +29,7 @@ import java.util.ArrayList
 *     thread starts processing the next request (whatever 'request' means).
 *
 * In other words, object leases are request-scoped. It's illegal to leak them,
-* store them or use them outside of the ongoing request at least-time. It also
+* store them or use them outside of the ongoing request at lease-time. It also
 * illegal to share them with other threads.
 *
 * Borrowers need not return objects to the pool, as the pool will collect them
